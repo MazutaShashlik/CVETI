@@ -17,7 +17,7 @@
         android:theme="@style/Theme.CVETI"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Nachalo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +28,10 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+        </activity>
+
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
